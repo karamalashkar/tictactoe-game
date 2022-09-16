@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: lightgrey;
 }
 
 .board{
     height: 60%;
     width: 40%;
-    background-color: black;
-    margin: 5% auto;
+    margin: 1% auto;
     display: flex;
     flex-direction: column;
 }
@@ -16,7 +16,6 @@
 .row{
     width: 100%;
     height: 34%;
-    margin: 1% 0;
     background-color: black;
     display: flex;
 }
@@ -31,3 +30,35 @@
     align-items: center;
 }
 
+.win{
+    margin-top: 1%;
+    text-align: center;
+    color: green;
+    font-size: 35px;
+}
+
+.pointer{
+    pointer-events: none;
+}
+
+.title{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+}
+
+.start{
+    margin-top: 2%;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image{
+    display: none;
+    width: 80%;
+    height: 80%;
+}
